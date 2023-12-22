@@ -1,0 +1,6 @@
+framework module Pods_ZRCustomKVO_Example {
+  umbrella header "Pods-ZRCustomKVO_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
