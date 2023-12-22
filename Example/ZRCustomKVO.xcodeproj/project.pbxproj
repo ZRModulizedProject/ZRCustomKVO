@@ -61,11 +61,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C8E2805A254EB4906E2748C /* Pods-ZRCustomKVO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRCustomKVO_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZRCustomKVO_Tests/Pods-ZRCustomKVO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A32916307F2339367F90752A /* Pods_ZRCustomKVO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRCustomKVO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A940EDE7187D77FA562D2931 /* ZRCustomKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZRCustomKVO.podspec; path = ../ZRCustomKVO.podspec; sourceTree = "<group>"; };
-		B2126FA3664FF1675CD43EE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A940EDE7187D77FA562D2931 /* ZRCustomKVO.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZRCustomKVO.podspec; path = ../ZRCustomKVO.podspec; sourceTree = "<group>"; };
+		B2126FA3664FF1675CD43EE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D5B4F8C6F82C7763DF69E3EC /* Pods-ZRCustomKVO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRCustomKVO_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZRCustomKVO_Example/Pods-ZRCustomKVO_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D6BB121AAD3F3AAD643EA8CE /* Pods_ZRCustomKVO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRCustomKVO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6F7961C17873AB61042E28F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D6F7961C17873AB61042E28F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E546638163AE29A6A368B4F4 /* Pods-ZRCustomKVO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRCustomKVO_Example.release.xcconfig"; path = "Target Support Files/Pods-ZRCustomKVO_Example/Pods-ZRCustomKVO_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				8C8E2805A254EB4906E2748C /* Pods-ZRCustomKVO_Tests.debug.xcconfig */,
 				6714F95B86C36DF43ED9E08E /* Pods-ZRCustomKVO_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhourui;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5S4QSMZLCU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = D5B4F8C6F82C7763DF69E3EC /* Pods-ZRCustomKVO_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5S4QSMZLCU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZRCustomKVO/ZRCustomKVO-Prefix.pch";
 				INFOPLIST_FILE = "ZRCustomKVO/ZRCustomKVO-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = E546638163AE29A6A368B4F4 /* Pods-ZRCustomKVO_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5S4QSMZLCU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZRCustomKVO/ZRCustomKVO-Prefix.pch";
 				INFOPLIST_FILE = "ZRCustomKVO/ZRCustomKVO-Info.plist";

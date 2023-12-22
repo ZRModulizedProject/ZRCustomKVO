@@ -16,8 +16,8 @@
 		B459DF12D040FC5BCC9CA6EE466FFFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B7800F62C43A863D599732ECAE6541B8 /* Pods-ZRCustomKVO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAD70F45AE79FF32661A3BE52785F2D /* Pods-ZRCustomKVO_Tests-dummy.m */; };
 		CD8E71DC9E947968F8E363E983EC1F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F049BA132B358EE600B87F45 /* NSObject+ZRKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F049BA112B358EE600B87F45 /* NSObject+ZRKVO.h */; };
-		F049BA142B358EE600B87F45 /* NSObject+ZRKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F049BA122B358EE600B87F45 /* NSObject+ZRKVO.m */; };
+		F049BA172B3591C800B87F45 /* NSObject+ZRKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */; };
+		F049BA182B3591C800B87F45 /* NSObject+ZRKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		E89DADF8B5DA7B62C94F2E65F224A2AC /* Pods-ZRCustomKVO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZRCustomKVO_Example-dummy.m"; sourceTree = "<group>"; };
 		EA26EFAE2CCFCFB32A452374FE67F257 /* Pods-ZRCustomKVO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZRCustomKVO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EDAD70F45AE79FF32661A3BE52785F2D /* Pods-ZRCustomKVO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZRCustomKVO_Tests-dummy.m"; sourceTree = "<group>"; };
-		F049BA112B358EE600B87F45 /* NSObject+ZRKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZRKVO.h"; path = "Class/NSObject+ZRKVO.h"; sourceTree = "<group>"; };
-		F049BA122B358EE600B87F45 /* NSObject+ZRKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZRKVO.m"; path = "Class/NSObject+ZRKVO.m"; sourceTree = "<group>"; };
+		F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZRKVO.m"; path = "ZRCustomKVO/Classes/NSObject+ZRKVO.m"; sourceTree = "<group>"; };
+		F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZRKVO.h"; path = "ZRCustomKVO/Classes/NSObject+ZRKVO.h"; sourceTree = "<group>"; };
 		F115F1FD0D7EBE8F5F009B3B8A1A8F3D /* ZRCustomKVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZRCustomKVO-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,8 +166,8 @@
 		A0FE432116CB5AE7B89E2B19F0F35847 /* ZRCustomKVO */ = {
 			isa = PBXGroup;
 			children = (
-				F049BA112B358EE600B87F45 /* NSObject+ZRKVO.h */,
-				F049BA122B358EE600B87F45 /* NSObject+ZRKVO.m */,
+				F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */,
+				F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */,
 				89094852CEE6A7CC4DDCD0E5A2F3B2AD /* Pod */,
 				EF7CCDAA41E1CBC74DF51763A06E913B /* Support Files */,
 			);
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07D71E94DC628F7AC571629B71C5289 /* ZRCustomKVO-umbrella.h in Headers */,
-				F049BA132B358EE600B87F45 /* NSObject+ZRKVO.h in Headers */,
+				F049BA182B3591C800B87F45 /* NSObject+ZRKVO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,8 +379,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F049BA172B3591C800B87F45 /* NSObject+ZRKVO.m in Sources */,
 				29F8AF5D3F21E05F30481565F0D77D51 /* ZRCustomKVO-dummy.m in Sources */,
-				F049BA142B358EE600B87F45 /* NSObject+ZRKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
