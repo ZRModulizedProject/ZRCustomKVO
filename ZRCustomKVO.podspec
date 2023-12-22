@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZRCustomKVO'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of ZRCustomKVO.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,16 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.pod_target_xcconfig = {
+    # 'VALID_ARCHS' => 'arm64',
+    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 armv7s arm64'
+  }
+  s.user_target_xcconfig = {
+    # 'VALID_ARCHS' => 'arm64',
+    'EXCLUDED_ARCHS[sdk=iphoneos*]' => 'armv7 armv7s',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => "armv7 armv7s arm64"
+  }
+
 end
