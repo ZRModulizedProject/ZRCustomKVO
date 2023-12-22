@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZRCustomKVO_Example' do
+  pod 'ZRCustomKVO', :path => '../'
+
+  target 'ZRCustomKVO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
