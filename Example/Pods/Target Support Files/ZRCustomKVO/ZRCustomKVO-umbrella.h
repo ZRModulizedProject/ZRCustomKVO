@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSObject+ZRKVO.h"
 
 FOUNDATION_EXPORT double ZRCustomKVOVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZRCustomKVOVersionString[];

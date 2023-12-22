@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'git@github.com:ZRModulizedProject/ZRCustomKVO.git'
+source 'https://github.com/Cocoapods/Specs.git'
+
 platform :ios, '10.0'
 
 target 'ZRCustomKVO_Example' do

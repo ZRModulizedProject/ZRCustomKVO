@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29F8AF5D3F21E05F30481565F0D77D51 /* ZRCustomKVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F115F1FD0D7EBE8F5F009B3B8A1A8F3D /* ZRCustomKVO-dummy.m */; };
+		3B6554078886C255C9A5043905E49F5C /* NSObject+ZRKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF11DAC1F1E7EE07BDA7BF143AD97E0 /* NSObject+ZRKVO.m */; };
 		4FE26CC42DC8D62356D135119740606F /* Pods-ZRCustomKVO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78714C9AE7ECB78B284F6AF032E9216 /* Pods-ZRCustomKVO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551DC516D5382A634DBE74350FE6807F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		60748671BADF5299A0B1D664CB748C31 /* Pods-ZRCustomKVO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6898DD0DE2708DD3AD184D3D353923F /* Pods-ZRCustomKVO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA02D98E11F6B9D6DE222787558ED17 /* ZRCustomKVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC441FC4BD341D6CE90EFE843F3965AD /* ZRCustomKVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81E12538C3F44FE1B025837A38AD7913 /* Pods-ZRCustomKVO_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E89DADF8B5DA7B62C94F2E65F224A2AC /* Pods-ZRCustomKVO_Example-dummy.m */; };
-		A07D71E94DC628F7AC571629B71C5289 /* ZRCustomKVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FAA3E7FB707774A63362C83C89EDE1 /* ZRCustomKVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB598A43A167878FF6A40C0ACA2FE41 /* ZRCustomKVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E996F1B223BA1E874A35058E193BD8C /* ZRCustomKVO-dummy.m */; };
 		AAE1757D1E29700A82F8F09136DBD777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B459DF12D040FC5BCC9CA6EE466FFFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B7800F62C43A863D599732ECAE6541B8 /* Pods-ZRCustomKVO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAD70F45AE79FF32661A3BE52785F2D /* Pods-ZRCustomKVO_Tests-dummy.m */; };
 		CD8E71DC9E947968F8E363E983EC1F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F049BA172B3591C800B87F45 /* NSObject+ZRKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */; };
-		F049BA182B3591C800B87F45 /* NSObject+ZRKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */; };
+		E6DCCD189F5728403D1F0B0B86B29E87 /* NSObject+ZRKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBCDCCAD39D8109B0A8C755AAF1D7F4 /* NSObject+ZRKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2238CCD869F1AC6A9D75547223FC1603 /* PBXContainerItemProxy */ = {
+		07601C9348A97940311A42F3111000A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6869F46BB5213F9D5077BC3CA1A9B944;
 			remoteInfo = "Pods-ZRCustomKVO_Example";
 		};
-		D11BD13C0B6F676D08B3AA20F4E1D9F8 /* PBXContainerItemProxy */ = {
+		CA68DBB76D34E82E1484EFDB149801E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,38 +40,38 @@
 /* Begin PBXFileReference section */
 		0B879C705BD4F51D1760E4B5B1151A5E /* Pods-ZRCustomKVO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZRCustomKVO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E75BC317D89D717CA3784CD9C36D07C /* Pods-ZRCustomKVO_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZRCustomKVO_Tests-Info.plist"; sourceTree = "<group>"; };
-		1984785767D93394D6513F7BC0D085EF /* ZRCustomKVO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRCustomKVO-prefix.pch"; sourceTree = "<group>"; };
-		29B60B9AAA76F290187663D68E8877CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		29E6A1AB47CE33403BD857E36065CF6E /* ZRCustomKVO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZRCustomKVO.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		1D77537F4070D57F5D8D93EE51C035BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1FF11DAC1F1E7EE07BDA7BF143AD97E0 /* NSObject+ZRKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZRKVO.m"; path = "Pod/Classes/NSObject+ZRKVO.m"; sourceTree = "<group>"; };
+		3160E9B8E72A8E1F0CBC45128651F861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F7C66F1CBB7AA58B8435C37C2ACDA92 /* ZRCustomKVO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRCustomKVO-prefix.pch"; sourceTree = "<group>"; };
 		45BCF929E67E3D8A52BCC70558609851 /* Pods-ZRCustomKVO_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZRCustomKVO_Tests"; path = Pods_ZRCustomKVO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D6104BF6F74F11C4138D4D89F666D2 /* Pods-ZRCustomKVO_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZRCustomKVO_Example-Info.plist"; sourceTree = "<group>"; };
-		4B9F88D1EC7CB8C6D5794B5B5D02412A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4CC762AFEF4FFFE1CC8D5765419BD9D6 /* Pods-ZRCustomKVO_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZRCustomKVO_Example"; path = Pods_ZRCustomKVO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50FAA3E7FB707774A63362C83C89EDE1 /* ZRCustomKVO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRCustomKVO-umbrella.h"; sourceTree = "<group>"; };
-		53F1D5BE3BA8FA6AB915179B5BFBE217 /* ZRCustomKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZRCustomKVO.release.xcconfig; sourceTree = "<group>"; };
 		554072E53960E3D83218C3539EE979CD /* ZRCustomKVO */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZRCustomKVO; path = ZRCustomKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FB5D11857367E6F251664C8BD36B5DF /* ZRCustomKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZRCustomKVO.debug.xcconfig; sourceTree = "<group>"; };
 		66A2526145E5C3C9E7863C22379EF7B6 /* Pods-ZRCustomKVO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRCustomKVO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		68D387B29687D21C8FEDAD6E74AB075E /* Pods-ZRCustomKVO_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZRCustomKVO_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C49192CF4C4B3D270D5E7EBC8F38A07 /* Pods-ZRCustomKVO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRCustomKVO_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E996F1B223BA1E874A35058E193BD8C /* ZRCustomKVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZRCustomKVO-dummy.m"; sourceTree = "<group>"; };
 		8671CF9EF4C45ACA06A3258BA18E9B49 /* Pods-ZRCustomKVO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZRCustomKVO_Tests.modulemap"; sourceTree = "<group>"; };
-		881A38447A5C65BB6804B1C8FA036E7D /* ZRCustomKVO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZRCustomKVO-Info.plist"; sourceTree = "<group>"; };
+		8846A1867BF926E09077E5AA97AF4F3E /* ZRCustomKVO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZRCustomKVO.modulemap; sourceTree = "<group>"; };
 		8AE1F3A682C1C55175E25F77426DACD7 /* Pods-ZRCustomKVO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRCustomKVO_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		962D56E132CB5DD0BF4E9A932A0B44D0 /* Pods-ZRCustomKVO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZRCustomKVO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97183010CB8889AB47CF818E43247D53 /* ZRCustomKVO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZRCustomKVO-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBCDCCAD39D8109B0A8C755AAF1D7F4 /* NSObject+ZRKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZRKVO.h"; path = "Pod/Classes/NSObject+ZRKVO.h"; sourceTree = "<group>"; };
 		A08846300647388768D5294BC5F36DAC /* Pods-ZRCustomKVO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZRCustomKVO_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A18E3FD55C4F59D5E209F2F9A20C8180 /* ZRCustomKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZRCustomKVO.release.xcconfig; sourceTree = "<group>"; };
 		AEA2BC881AFB02F26964144A23F2CBB0 /* Pods-ZRCustomKVO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZRCustomKVO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6898DD0DE2708DD3AD184D3D353923F /* Pods-ZRCustomKVO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZRCustomKVO_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC441FC4BD341D6CE90EFE843F3965AD /* ZRCustomKVO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZRCustomKVO-umbrella.h"; sourceTree = "<group>"; };
 		D23BFED7D996F7E0494EAE4587158F53 /* Pods-ZRCustomKVO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZRCustomKVO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D78714C9AE7ECB78B284F6AF032E9216 /* Pods-ZRCustomKVO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZRCustomKVO_Example-umbrella.h"; sourceTree = "<group>"; };
-		E5576CE52DA65502A1685C63E6D8BAF5 /* ZRCustomKVO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZRCustomKVO.modulemap; sourceTree = "<group>"; };
+		D85A7A4357C8F062DE77F19A35FE30B2 /* ZRCustomKVO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZRCustomKVO.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		DF6ECEF5310416D1E66B1984C8CEBCF7 /* ZRCustomKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZRCustomKVO.debug.xcconfig; sourceTree = "<group>"; };
 		E89DADF8B5DA7B62C94F2E65F224A2AC /* Pods-ZRCustomKVO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZRCustomKVO_Example-dummy.m"; sourceTree = "<group>"; };
 		EA26EFAE2CCFCFB32A452374FE67F257 /* Pods-ZRCustomKVO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZRCustomKVO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EDAD70F45AE79FF32661A3BE52785F2D /* Pods-ZRCustomKVO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZRCustomKVO_Tests-dummy.m"; sourceTree = "<group>"; };
-		F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZRKVO.m"; path = "ZRCustomKVO/Classes/NSObject+ZRKVO.m"; sourceTree = "<group>"; };
-		F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZRKVO.h"; path = "ZRCustomKVO/Classes/NSObject+ZRKVO.h"; sourceTree = "<group>"; };
-		F115F1FD0D7EBE8F5F009B3B8A1A8F3D /* ZRCustomKVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZRCustomKVO-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		973301AC022F54FA2F26BCE9F4C45DEB /* Frameworks */ = {
+		9707B207907E320FC9F503DFC8E67F53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B459DF12D040FC5BCC9CA6EE466FFFEA /* Foundation.framework in Frameworks */,
+				551DC516D5382A634DBE74350FE6807F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +102,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0726D3A41E40773B49790C492F6EE533 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8846A1867BF926E09077E5AA97AF4F3E /* ZRCustomKVO.modulemap */,
+				7E996F1B223BA1E874A35058E193BD8C /* ZRCustomKVO-dummy.m */,
+				97183010CB8889AB47CF818E43247D53 /* ZRCustomKVO-Info.plist */,
+				3F7C66F1CBB7AA58B8435C37C2ACDA92 /* ZRCustomKVO-prefix.pch */,
+				CC441FC4BD341D6CE90EFE843F3965AD /* ZRCustomKVO-umbrella.h */,
+				DF6ECEF5310416D1E66B1984C8CEBCF7 /* ZRCustomKVO.debug.xcconfig */,
+				A18E3FD55C4F59D5E209F2F9A20C8180 /* ZRCustomKVO.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZRCustomKVO";
+			sourceTree = "<group>";
+		};
 		09FD3F0E93E631F6FA37AFB83591C259 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +152,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5B71C86C7CE45B046F3404FD6A282618 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D315229128CA42E66CDA07EF3290BA4C /* ZRCustomKVO */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6116436E7262F5D506AD4C9EA74D22F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D77537F4070D57F5D8D93EE51C035BD /* LICENSE */,
+				3160E9B8E72A8E1F0CBC45128651F861 /* README.md */,
+				D85A7A4357C8F062DE77F19A35FE30B2 /* ZRCustomKVO.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7D474F157E2ACB2D4E6B6C20379693C9 /* Pods-ZRCustomKVO_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,33 +186,11 @@
 			path = "Target Support Files/Pods-ZRCustomKVO_Tests";
 			sourceTree = "<group>";
 		};
-		89094852CEE6A7CC4DDCD0E5A2F3B2AD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4B9F88D1EC7CB8C6D5794B5B5D02412A /* LICENSE */,
-				29B60B9AAA76F290187663D68E8877CA /* README.md */,
-				29E6A1AB47CE33403BD857E36065CF6E /* ZRCustomKVO.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A0FE432116CB5AE7B89E2B19F0F35847 /* ZRCustomKVO */ = {
-			isa = PBXGroup;
-			children = (
-				F049BA162B3591C800B87F45 /* NSObject+ZRKVO.h */,
-				F049BA152B3591C800B87F45 /* NSObject+ZRKVO.m */,
-				89094852CEE6A7CC4DDCD0E5A2F3B2AD /* Pod */,
-				EF7CCDAA41E1CBC74DF51763A06E913B /* Support Files */,
-			);
-			name = ZRCustomKVO;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FAF10122283D3BAB52A713EF63EEFD3E /* Development Pods */,
+				5B71C86C7CE45B046F3404FD6A282618 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				09FD3F0E93E631F6FA37AFB83591C259 /* Products */,
 				D6960BCA9C8FDEB039AD73C099B6D611 /* Targets Support Files */,
@@ -194,6 +205,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D315229128CA42E66CDA07EF3290BA4C /* ZRCustomKVO */ = {
+			isa = PBXGroup;
+			children = (
+				9FBCDCCAD39D8109B0A8C755AAF1D7F4 /* NSObject+ZRKVO.h */,
+				1FF11DAC1F1E7EE07BDA7BF143AD97E0 /* NSObject+ZRKVO.m */,
+				6116436E7262F5D506AD4C9EA74D22F0 /* Pod */,
+				0726D3A41E40773B49790C492F6EE533 /* Support Files */,
+			);
+			name = ZRCustomKVO;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		D6960BCA9C8FDEB039AD73C099B6D611 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,29 +224,6 @@
 				7D474F157E2ACB2D4E6B6C20379693C9 /* Pods-ZRCustomKVO_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EF7CCDAA41E1CBC74DF51763A06E913B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5576CE52DA65502A1685C63E6D8BAF5 /* ZRCustomKVO.modulemap */,
-				F115F1FD0D7EBE8F5F009B3B8A1A8F3D /* ZRCustomKVO-dummy.m */,
-				881A38447A5C65BB6804B1C8FA036E7D /* ZRCustomKVO-Info.plist */,
-				1984785767D93394D6513F7BC0D085EF /* ZRCustomKVO-prefix.pch */,
-				50FAA3E7FB707774A63362C83C89EDE1 /* ZRCustomKVO-umbrella.h */,
-				5FB5D11857367E6F251664C8BD36B5DF /* ZRCustomKVO.debug.xcconfig */,
-				53F1D5BE3BA8FA6AB915179B5BFBE217 /* ZRCustomKVO.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZRCustomKVO";
-			sourceTree = "<group>";
-		};
-		FAF10122283D3BAB52A713EF63EEFD3E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A0FE432116CB5AE7B89E2B19F0F35847 /* ZRCustomKVO */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +237,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A86FFD6D1EA2DA5E45D3953ACDD11163 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6DCCD189F5728403D1F0B0B86B29E87 /* NSObject+ZRKVO.h in Headers */,
+				7DA02D98E11F6B9D6DE222787558ED17 /* ZRCustomKVO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AABF8482B1956A2B1FDBD56D42CF13E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,26 +254,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEEF7573F4F26E534C8319082879B565 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A07D71E94DC628F7AC571629B71C5289 /* ZRCustomKVO-umbrella.h in Headers */,
-				F049BA182B3591C800B87F45 /* NSObject+ZRKVO.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0E444FA7F95576A0D00AD88F1F58E11B /* ZRCustomKVO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFA1D5B39A11AAF09F64C27DB279A77C /* Build configuration list for PBXNativeTarget "ZRCustomKVO" */;
+			buildConfigurationList = F2051F99538DF02EE1268FA73E55B3AC /* Build configuration list for PBXNativeTarget "ZRCustomKVO" */;
 			buildPhases = (
-				FEEF7573F4F26E534C8319082879B565 /* Headers */,
-				7AE7A0C326E305B8808DF9C5E024DA8B /* Sources */,
-				973301AC022F54FA2F26BCE9F4C45DEB /* Frameworks */,
-				C7A6355C0AFCC74B2CB8A482D9E6A639 /* Resources */,
+				A86FFD6D1EA2DA5E45D3953ACDD11163 /* Headers */,
+				C9B5FA736305EEF00CC4718404E06615 /* Sources */,
+				9707B207907E320FC9F503DFC8E67F53 /* Frameworks */,
+				100EA607B4F1375AD67A51653F2E07E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				080D2115665C9113B1AABEFFD3E3BBF2 /* PBXTargetDependency */,
+				B67D3DD64B40B79E4262440E03B24B60 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZRCustomKVO_Tests";
 			productName = Pods_ZRCustomKVO_Tests;
@@ -306,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D3A1D43E4E9C8CAD2CBF6199055484A /* PBXTargetDependency */,
+				870DD865D5181502D26E0250C68D8106 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZRCustomKVO_Example";
 			productName = Pods_ZRCustomKVO_Example;
@@ -350,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5129724ED494A66727AE635C14006498 /* Resources */ = {
+		100EA607B4F1375AD67A51653F2E07E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7A6355C0AFCC74B2CB8A482D9E6A639 /* Resources */ = {
+		5129724ED494A66727AE635C14006498 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,15 +375,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AE7A0C326E305B8808DF9C5E024DA8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F049BA172B3591C800B87F45 /* NSObject+ZRKVO.m in Sources */,
-				29F8AF5D3F21E05F30481565F0D77D51 /* ZRCustomKVO-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD07D3C78D4C4BDAD5A4CF137BB97B36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,24 +383,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9B5FA736305EEF00CC4718404E06615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6554078886C255C9A5043905E49F5C /* NSObject+ZRKVO.m in Sources */,
+				9CB598A43A167878FF6A40C0ACA2FE41 /* ZRCustomKVO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		080D2115665C9113B1AABEFFD3E3BBF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZRCustomKVO_Example";
-			target = 6869F46BB5213F9D5077BC3CA1A9B944 /* Pods-ZRCustomKVO_Example */;
-			targetProxy = 2238CCD869F1AC6A9D75547223FC1603 /* PBXContainerItemProxy */;
-		};
-		7D3A1D43E4E9C8CAD2CBF6199055484A /* PBXTargetDependency */ = {
+		870DD865D5181502D26E0250C68D8106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZRCustomKVO;
 			target = 0E444FA7F95576A0D00AD88F1F58E11B /* ZRCustomKVO */;
-			targetProxy = D11BD13C0B6F676D08B3AA20F4E1D9F8 /* PBXContainerItemProxy */;
+			targetProxy = CA68DBB76D34E82E1484EFDB149801E6 /* PBXContainerItemProxy */;
+		};
+		B67D3DD64B40B79E4262440E03B24B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZRCustomKVO_Example";
+			target = 6869F46BB5213F9D5077BC3CA1A9B944 /* Pods-ZRCustomKVO_Example */;
+			targetProxy = 07601C9348A97940311A42F3111000A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1664B0C787D906BB9CF80FEC0862556D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18E3FD55C4F59D5E209F2F9A20C8180 /* ZRCustomKVO.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZRCustomKVO/ZRCustomKVO-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZRCustomKVO/ZRCustomKVO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZRCustomKVO/ZRCustomKVO.modulemap";
+				PRODUCT_MODULE_NAME = ZRCustomKVO;
+				PRODUCT_NAME = ZRCustomKVO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		49879846AF734B2A053EC1BD0D711FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C49192CF4C4B3D270D5E7EBC8F38A07 /* Pods-ZRCustomKVO_Tests.release.xcconfig */;
@@ -444,9 +476,9 @@
 			};
 			name = Release;
 		};
-		72DB56BE51A3B696D68F11269C828482 /* Debug */ = {
+		697E333F97A0E84D00EF5D13AC691951 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FB5D11857367E6F251664C8BD36B5DF /* ZRCustomKVO.debug.xcconfig */;
+			baseConfigurationReference = DF6ECEF5310416D1E66B1984C8CEBCF7 /* ZRCustomKVO.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -603,38 +635,6 @@
 			};
 			name = Release;
 		};
-		C44ABE3874FAE5E77FD1ADB8EA0087E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F1D5BE3BA8FA6AB915179B5BFBE217 /* ZRCustomKVO.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZRCustomKVO/ZRCustomKVO-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZRCustomKVO/ZRCustomKVO-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZRCustomKVO/ZRCustomKVO.modulemap";
-				PRODUCT_MODULE_NAME = ZRCustomKVO;
-				PRODUCT_NAME = ZRCustomKVO;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -764,11 +764,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFA1D5B39A11AAF09F64C27DB279A77C /* Build configuration list for PBXNativeTarget "ZRCustomKVO" */ = {
+		F2051F99538DF02EE1268FA73E55B3AC /* Build configuration list for PBXNativeTarget "ZRCustomKVO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72DB56BE51A3B696D68F11269C828482 /* Debug */,
-				C44ABE3874FAE5E77FD1ADB8EA0087E7 /* Release */,
+				697E333F97A0E84D00EF5D13AC691951 /* Debug */,
+				1664B0C787D906BB9CF80FEC0862556D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZRCustomKVO'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of ZRCustomKVO.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ZRCustomKVO/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ZRCustomKVO' => ['ZRCustomKVO/Assets/*.png']
